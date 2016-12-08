@@ -62,7 +62,7 @@ items:
           resources:
             requests:
               memory: 1024Mi
-              cpu: 2000m
+              cpu: 500m
         dnsPolicy: ClusterFirst
         restartPolicy: Always
         serviceAccountName: hawkular-apm
